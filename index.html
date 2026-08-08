@@ -25,8 +25,10 @@
   ul.features { text-align: left; margin: 40px auto; max-width: 520px; }
   ul.features li { margin: 8px 0; }
   .support { margin-top: 48px; }
-  .support a { margin: 0 8px; }
+  .support a.tier { margin: 0 8px; }
+  .fineprint { font-size: 13px; opacity: 0.6; margin-top: 16px; }
   footer { font-size: 13px; opacity: 0.5; margin-top: 56px; }
+  a { color: #007aff; }
 </style>
 </head>
 <body>
@@ -47,14 +49,21 @@
   </ul>
 
   <div class="support">
-    <p>Corral is free. If it earns its keep:</p>
-    <!-- TODO(stephen): replace with real Stripe Payment Links. -->
-    <a href="https://donate.stripe.com/REPLACE_COFFEE">Buy me a coffee</a>
-    <a href="https://donate.stripe.com/REPLACE_BEER">Buy me a beer</a>
-    <a href="https://donate.stripe.com/REPLACE_DINNER">Buy me dinner</a>
+    <h2>Support</h2>
+    <p>Corral is free and fully functional. Donations are entirely optional, one-time,
+       and don't unlock anything — they just support development. If it earns its keep,
+       buy me a:</p>
+    <!-- TODO(stephen): replace with real Stripe Payment Links once approved. -->
+    <a class="tier" href="https://donate.stripe.com/REPLACE_COFFEE">Coffee</a>
+    <a class="tier" href="https://donate.stripe.com/REPLACE_BEER">Beer</a>
+    <a class="tier" href="https://donate.stripe.com/REPLACE_DINNER">Dinner</a>
+    <p class="fineprint">
+      Donations are voluntary and non-refundable. Questions or a problem with a payment?
+      Email <a href="mailto:stephen@corralapp.org">stephen@corralapp.org</a> and I'll make it right.
+    </p>
   </div>
 
-  <footer>© 2026 Stephen Brannen</footer>
+  <footer>© 2026 Stephen Brannen · <a href="mailto:stephen@corralapp.org">stephen@corralapp.org</a></footer>
 </main>
 </body>
 </html>
