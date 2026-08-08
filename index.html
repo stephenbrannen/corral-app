@@ -22,8 +22,16 @@
     font-size: 18px;
   }
   .req { font-size: 14px; opacity: 0.6; margin-top: 12px; }
-  ul.features { text-align: left; margin: 40px auto; max-width: 520px; }
-  ul.features li { margin: 8px 0; }
+  .shots { margin: 64px 0 8px; }
+  .shot { margin: 56px 0; }
+  .shot img {
+    width: 100%; max-width: 560px; height: auto;
+    border-radius: 12px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.28);
+  }
+  .shot.narrow img { max-width: 260px; box-shadow: 0 10px 30px rgba(0,0,0,0.24); }
+  .shot h3 { font-size: 24px; margin: 22px 0 4px; }
+  .shot p { opacity: 0.7; margin: 0 auto; max-width: 460px; }
   .support { margin-top: 48px; }
   .support a.tier { margin: 0 8px; }
   .fineprint { font-size: 13px; opacity: 0.6; margin-top: 16px; }
@@ -40,13 +48,23 @@
   <a class="download" href="https://github.com/stephenbrannen/corral-app/releases/latest">Download for macOS</a>
   <p class="req">Requires macOS 14 (Sonoma) or later. Free.</p>
 
-  <ul class="features">
-    <li>Global hotkeys snap the focused window to halves, thirds, two-thirds, maximize, or center.</li>
-    <li>Shortcuts map to arbitrary screen fractions, fully decoupled from the grid size.</li>
-    <li>A configurable grid with a live full-screen preview.</li>
-    <li>Menu bar actions for every binding, multi-display aware.</li>
-    <li>Automatic updates.</li>
-  </ul>
+  <section class="shots">
+    <div class="shot">
+      <img src="feature-defaults.png" alt="Corral's Shortcuts settings with built-in layouts and hotkeys">
+      <h3>Sensible defaults</h3>
+      <p>Eleven ready-to-use layouts with Magnet-style hotkeys, set up the moment you launch.</p>
+    </div>
+    <div class="shot">
+      <img src="feature-custom.png" alt="Drawing a custom region on Corral's grid">
+      <h3>Infinite customization</h3>
+      <p>Draw any region on the grid or dial in exact fractions. Shortcuts aren't limited to presets, and they don't change when you resize the grid.</p>
+    </div>
+    <div class="shot narrow">
+      <img src="feature-menubar.png" alt="Corral's menu bar menu listing every layout">
+      <h3>Always a click away</h3>
+      <p>Every layout lives in the menu bar too, so you never need to remember a shortcut.</p>
+    </div>
+  </section>
 
   <div class="support">
     <h2>Support</h2>
