@@ -3,6 +3,19 @@
     <channel>
         <title>Corral</title>
         <item>
+            <title>0.2.2</title>
+            <pubDate>Mon, 10 Aug 2026 13:27:35 -0500</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Corral 0.2.2</h2>
+<ul>
+  <li>Fixed the settings window tab bar (General / Grid / Shortcuts) shifting when you change the menu bar icon.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/stephenbrannen/corral-app/releases/download/v0.2.2/Corral-0.2.2.zip" length="3749177" type="application/octet-stream" sparkle:edSignature="yqZRP3Ps4KOZZCz6hrKpnsEt/pT9pc/UrrUXdJuELB8J+p3jMBSDFI+lZriuA63xxiYEJbMWg6gOFsi8LawTBA=="/>
+        </item>
+        <item>
             <title>0.2.1</title>
             <pubDate>Mon, 10 Aug 2026 13:13:19 -0500</pubDate>
             <sparkle:version>3</sparkle:version>
