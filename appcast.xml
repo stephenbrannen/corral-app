@@ -3,6 +3,22 @@
     <channel>
         <title>Corral</title>
         <item>
+            <title>1.0.0</title>
+            <pubDate>Mon, 10 Aug 2026 14:22:40 -0500</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Corral 1.0.0</h2>
+<ul>
+  <li><b>Drag-to-snap.</b> Drag a window to the left, right, or top edge to snap it (top maximizes). Toggle in Settings.</li>
+  <li><b>Cross-display cycling.</b> Press the half shortcuts (⌃⌥ arrows) repeatedly to walk a window across your displays in half-screen steps.</li>
+  <li><b>Undo last snap</b> with ⌃⌥Z.</li>
+  <li><b>Per-app ignore list</b> in Settings for apps you don't want Corral to touch.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/stephenbrannen/corral-app/releases/download/v1.0.0/Corral-1.0.0.zip" length="3788621" type="application/octet-stream" sparkle:edSignature="GHEPdbHD4DVSJEK79PhiWfwmQE0jyeVy49uLryspSjMuUZHcu5l7RPQJd3PMYnMc1fIaegz4V+yUwjNbb0TNBw=="/>
+        </item>
+        <item>
             <title>0.2.2</title>
             <pubDate>Mon, 10 Aug 2026 13:27:35 -0500</pubDate>
             <sparkle:version>4</sparkle:version>
