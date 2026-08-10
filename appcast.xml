@@ -3,22 +3,20 @@
     <channel>
         <title>Corral</title>
         <item>
-            <title>0.1.1</title>
-            <pubDate>Fri, 07 Aug 2026 20:27:52 -0500</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <title>0.2.0</title>
+            <pubDate>Mon, 10 Aug 2026 12:23:03 -0500</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/stephenbrannen/corral-app/releases/download/v0.1.1/Corral-0.1.1.zip" length="3717543" type="application/octet-stream" sparkle:edSignature="CLOM7bsAIHnguQ+7l+b3dEPurO4FF3rjyGnqdEgkyjLwF6ww6kr0pkS+JdmedEVu6hwHdc1hEKjmpujbofKqDA=="/>
-            <description><![CDATA[<h2>Corral 0.1.1</h2>
-<p>First public release.</p>
+            <description><![CDATA[<h2>Corral 0.2.0</h2>
 <ul>
-  <li>Snap the focused window to halves, thirds, two-thirds, maximize, and center — via global hotkeys or the menu bar.</li>
-  <li>Shortcuts map to arbitrary screen fractions, independent of the grid size.</li>
-  <li>Grid tab with a live full-screen preview while you set rows and columns.</li>
-  <li>Editable custom regions with a drag-select grid; built-in bindings are locked so they can't be knocked out of alignment.</li>
-  <li>Choice of menu bar icon, start-at-login, and automatic updates.</li>
+  <li><b>Snap to Grid overlay.</b> Press ⌃⌥Space (or the menu bar) to bring up a grid on your screen, drag to pick a region, and the focused window snaps to it. The window is outlined in blue so you can see what will move.</li>
+  <li>Rebindable overlay shortcut in Settings ▸ Grid.</li>
+  <li>New About window.</li>
+  <li>If Corral earns its keep, there are now optional donation options in Settings and About.</li>
 </ul>
 ]]></description>
+            <enclosure url="https://github.com/stephenbrannen/corral-app/releases/download/v0.2.0/Corral-0.2.0.zip" length="3748069" type="application/octet-stream" sparkle:edSignature="HJD6g/zqo1I+RcHEsS1cZcqyXVJD91kWH0gysePyXv4gBMDCi2cXhKyyrif65uxbEEGinVlNFDYu/jKS2VY0DQ=="/>
         </item>
     </channel>
 </rss>
